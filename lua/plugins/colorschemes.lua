@@ -1,81 +1,75 @@
-return {
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "gruvbox",
-    },
-  },
+local spec = {
+  { "ellisonleao/gruvbox.nvim" },
   { "catppuccin/nvim", name = "catpuccin" },
-  "folke/tokyonight.nvim",
-  "rebelot/kanagawa.nvim",
-  "sainnhe/gruvbox-material",
-  "sainnhe/everforest",
-  "gbprod/nord.nvim",
-  "edeneast/nightfox.nvim",
-  "calind/selenized.nvim", --?
-  {
-    "ellisonleao/gruvbox.nvim",
-    opts = { contrast = "hard" },
-  },
-  "kepano/flexoki-neovim", -- ?
-  "olimorris/onedarkpro.nvim",
-  "mofiqul/dracula.nvim",
-  "savq/melange-nvim",
-  "bluz71/vim-nightfly-colors",
-  "bluz71/vim-moonfly-colors",
-  "NTBBloodbath/sweetie.nvim",
-  "ClearAspect/onehalf",
-  "mofiqul/vscode.nvim",
-  -- rose pine
-  "nyoom-engineering/oxocarbon.nvim",
-  -- solarized
+  { "folke/tokyonight.nvim" },
+  { "rebelot/kanagawa.nvim" },
+  { "sainnhe/gruvbox-material" },
+  { "sainnhe/everforest" },
+  { "sainnhe/sonokai" },
+  { "gbprod/nord.nvim" },
+  { "edeneast/nightfox.nvim" },
+  { "calind/selenized.nvim" },
+  { "kepano/flexoki-neovim" },
+  { "navarasu/onedark.nvim" },
+  { "mofiqul/dracula.nvim" },
+  { "savq/melange-nvim" },
+  { "bluz71/vim-nightfly-colors" },
+  { "bluz71/vim-moonfly-colors" },
+  { "NTBBloodbath/sweetie.nvim" },
+  { "mofiqul/vscode.nvim" },
+  { "rose-pine/neovim", name = "rose-pine" },
+  { "nyoom-engineering/oxocarbon.nvim" },
+  { "maxmx03/solarized.nvim" },
   -- kanagawa-paper
-  -- neofusion
+  { "dgox16/oldworld.nvim" },
+  { "diegoulloao/neofusion.nvim" },
   -- midnight
   -- nightcity
-  -- fluoromachine
-  -- aquarium ?
-  -- kimbox
-  -- embark
-  -- pastelnight
-  -- space duck
-  "phha/zenburn.nvim",
+  { "maxmx03/FluoroMachine.nvim" },
+  { "lmburns/kimbox" },
+  { "embark-theme/vim", name = "embark" },
+  { "pauchiner/pastelnight.nvim" },
+  { "spaceduck-theme/nvim", name = "spaceduck" },
+  { "phha/zenburn.nvim" },
   -- mini.base16
   -- vim-deus
-  -- newpaper
-  -- vesper
-  -- modus
-  -- github
-  -- material
-  -- lackluster
-  -- monet
-  -- bamboo
-  -- darkvoid
-  -- poimandres
-  -- yugen
-  -- mellifluous
-  -- iceberg
-  -- serene
-  -- evergarden
-  -- darkearth
-  -- everblush
-  -- posterpole
-  -- cyberdream
-  -- okcolors
-  -- eyes.nvim
-  -- ayu
-  -- wurli/cobalt.nvim
-  -- blue-moon
-  -- nvimgelion
-  -- yorumi
+  { "yorik1984/newpaper.nvim" },
+  { "datsfilipe/vesper.nvim" },
+  { "miikanissi/modus-themes.nvim" },
+  { "projekt0n/github-nvim-theme" },
+  { "projekt0n/caret.nvim" },
+  { "marko-cerovac/material.nvim" },
+  { "slugbyte/lackluster.nvim" },
+  { "fynnfluegge/monet.nvim" },
+  { "ribru17/bamboo.nvim" },
+  { "darkvoid-theme/darkvoid.nvim" },
+  { "olivercederborg/poimandres.nvim" },
+  { "rmehri01/onenord.nvim" },
+  -- "olimorris/onedarkpro.nvim", -- conflict woith onedark
+  { "bettervim/yugen.nvim" },
+  { "blazkowolf/gruber-darker.nvim" },
+  { "ramojus/mellifluous.nvim" },
+  { "Yazeed1s/oh-lucy.nvim" },
+  { "oahlen/iceberg.nvim" },
+  { "samharju/serene.nvim" },
+  { "comfysage/evergarden" },
+  { "ptdewey/DarkEarth-nvim" },
+  { "Everblush/nvim", name = "Everblush" },
+  { "scottmckendry/cyberdream.nvim" },
+  { "e-q/okcolors.nvim" },
+  { "amedoeyes/eyes.nvim" },
+  { "Shatur/neovim-ayu" },
+  { "wurli/cobalt.nvim" },
+  { "kyazdani42/blue-moon" },
+  { "nyngwang/nvimgelion" },
+  { "yorumicolors/yorumi.nvim" },
   -- lavish
   -- flow
-  -- ares
-  -- tundra
+  { "sam4llis/nvim-tundra" },
   -- monoglow
   -- vague
-  -- americano
-  -- bluloco
+  { "cpwrs/americano.nvim" },
+  { "ilof2/posterpole.nvim" },
   -- moonbow
   -- darcula-dark
   -- 68 cutoff --
@@ -85,41 +79,45 @@ return {
   -- fleet
   -- templeos ^
   -- fakedonalds ^
-  -- caret
-  -- sonokai ^
-  -- edge ^
-  -- witch ^
-  -- nightowl
-  -- vim-winteriscoming
-  -- horizon
+  { "sontungexpt/witch" },
+  { "oxfist/night-owl.nvim" },
+  { "atmosuwiryo/vim-winteriscoming" },
+  { "akinsho/horizon.nvim" },
   -- jellybeans
   -- yellowbeans
   -- monokai
-  -- boo ^
-  -- citruszest ^
+  { "rockerBOO/boo-colorscheme-nvim" },
+  { "zootedb0t/citruszest.nvim" },
   -- adwaita
   -- nordic
-  -- solarized-osaka
-  -- onenord
+  { "craftzdog/solarized-osaka.nvim" },
   -- tokyodark
+  { "samharju/synthweave.nvim" },
   -- kyotonight
   -- monokai-pro
   -- no-clown-fiesta
   -- aurora
-  -- mellow
-  -- gruber-darker
-  -- doom-one
-  -- eldritch ^
-  -- eva01
-  -- deepwhite
-  -- alabaster
-  -- abstract-cs
+  { "NTBBloodbath/doom-one.nvim" },
+  { "eldritch-theme/eldritch.nvim" },
+  { "hachy/eva01.vim" },
+  { "verf/deepwhite.nvim" },
+  { "p00f/alabaster.nvim" },
+  { "Abstract-IDE/Abstract-cs" },
   -- nova
   -- ashen
   -- obscure
   -- nano
   -- morta
-  -- darkrose ^
+  { "water-sucks/darkrose.nvim" },
   -- lvim
-  -- gruvsquirrel
+  { "mikesmithgh/gruvsquirrel.nvim" },
+  -- lush themes
+  -- bluloco
+  -- zenbones
 }
+
+for _, v in pairs(spec) do
+  v["event"] = "VeryLazy"
+end
+
+return spec
