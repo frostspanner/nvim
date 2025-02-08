@@ -1,6 +1,6 @@
 local spec = {
   { "ellisonleao/gruvbox.nvim", opts = { contrast = "hard" } },
-  { "catppuccin/nvim", name = "catpuccin" },
+  { "catppuccin/nvim", name = "catppuccin" },
   { "folke/tokyonight.nvim" },
   { "rebelot/kanagawa.nvim" },
   { "sainnhe/gruvbox-material" },
@@ -84,6 +84,7 @@ local spec = {
   { "atmosuwiryo/vim-winteriscoming" },
   { "akinsho/horizon.nvim" },
   { "WTFox/jellybeans.nvim", config = true },
+  { "shmerl/neogotham" },
   -- yellowbeans
   -- monokai
   { "rockerBOO/boo-colorscheme-nvim" },
