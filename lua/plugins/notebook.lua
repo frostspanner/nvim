@@ -7,12 +7,6 @@ return {
       -- this is an example, not a default. Please see the readme for more configuration options
       vim.g.molten_output_win_max_height = 12
     end,
-    dependencies = {
-      {
-        "willothy/wezterm.nvim",
-        config = true,
-      },
-    },
   },
   {
     "jmbuhr/otter.nvim",
@@ -22,6 +16,7 @@ return {
     opts = {},
   },
   {
+    --TODO: Replace with Snacks.image when supported by Molten
     "3rd/image.nvim",
     enabled = vim.uv.os_uname().sysname ~= "Windows_NT",
     build = false, -- so that it doesn't build the rock https://github.com/3rd/image.nvim/issues/91#issuecomment-2453430239

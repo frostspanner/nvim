@@ -2,14 +2,14 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "kanagawa",
     },
   },
   {
     "nvim-lualine/lualine.nvim",
     opts = {
       options = {
-        theme = "gruvbox",
+        theme = "kanagawa",
       },
     },
   },

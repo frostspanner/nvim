@@ -64,7 +64,7 @@ return {
         right_pad = 1,
       },
       heading = {
-        sign = true,
+        sign = false,
         icons = {},
       },
       checkbox = {
