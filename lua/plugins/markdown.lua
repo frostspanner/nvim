@@ -68,7 +68,7 @@ return {
         icons = {},
       },
       checkbox = {
-        enabled = false,
+        enabled = true,
       },
     },
     ft = { "markdown" },
