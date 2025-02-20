@@ -1,5 +1,5 @@
 local spec = {
-  { "ellisonleao/gruvbox.nvim", opts = { contrast = "hard" } },
+  { "ellisonleao/gruvbox.nvim" },
   { "catppuccin/nvim", name = "catppuccin" },
   { "folke/tokyonight.nvim" },
   { "rebelot/kanagawa.nvim" },

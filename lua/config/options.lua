@@ -6,3 +6,6 @@ vim.g.python3_host_prog = vim.fn.expand("~/.virtualenvs/nvim/Scripts/python")
 -- vim.g.molten_image_provider = "wezterm"
 -- vim.g.molten_auto_open_output = false
 vim.g.molten_auto_image_popup = true
+vim.filetype.add({
+  pattern = { [".*/hypr/.*%.conf"] = "hyprlang" },
+})
