@@ -2,14 +2,14 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "kanagawa",
     },
   },
   {
     "nvim-lualine/lualine.nvim",
     opts = {
       options = {
-        theme = "tokyonight",
+        theme = "kanagawa",
       },
     },
   },
