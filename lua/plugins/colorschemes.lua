@@ -79,6 +79,7 @@ local spec = {
   { "Vallen217/eidolon.nvim" },
   { "xero/miasma.nvim" },
   { "0xhoussam/fleet.nvim" },
+  { "svin24/breeze.nvim" },
   { "raphael-proust/vacme" },
   { "LunarVim/templeos.nvim" },
   { "dundargoc/fakedonalds.nvim" },
