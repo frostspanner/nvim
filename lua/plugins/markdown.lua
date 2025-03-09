@@ -64,6 +64,7 @@ return {
         right_pad = 1,
       },
       heading = {
+        enabled = false,
         sign = false,
         icons = {},
       },

@@ -1,5 +1,5 @@
 local spec = {
-  { "ellisonleao/gruvbox.nvim" },
+  { "ellisonleao/gruvbox.nvim", opts = { contrast = "" } },
   { "catppuccin/nvim", name = "catppuccin" },
   { "folke/tokyonight.nvim" },
   { "rebelot/kanagawa.nvim" },
@@ -12,6 +12,8 @@ local spec = {
   { "kepano/flexoki-neovim" },
   { "navarasu/onedark.nvim" },
   { "FrenzyExists/aquarium-vim" },
+  { "adisen99/codeschool.nvim" },
+  { "adisen99/apprentice.nvim" },
   { "mofiqul/dracula.nvim" },
   { "savq/melange-nvim" },
   { "bluz71/vim-nightfly-colors", name = "nightfly" },

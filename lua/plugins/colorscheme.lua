@@ -2,14 +2,19 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa",
+      colorscheme = "gruvbox",
     },
   },
   {
+    "echasnovski/mini.statusline",
+    config = true,
+  },
+  {
     "nvim-lualine/lualine.nvim",
+    enabled = false,
     opts = {
       options = {
-        theme = "kanagawa",
+        theme = "gruvbox",
       },
     },
   },
