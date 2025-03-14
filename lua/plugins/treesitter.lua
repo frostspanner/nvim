@@ -4,6 +4,7 @@ return {
     ensure_installed = {
       "bash",
       "c",
+      "c_sharp",
       "cpp",
       "html",
       "javascript",
@@ -12,7 +13,6 @@ return {
       "markdown",
       "markdown_inline",
       "norg",
-      "norg_meta",
       "powershell",
       "python",
       "query",
