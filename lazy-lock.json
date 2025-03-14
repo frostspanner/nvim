@@ -31,6 +31,7 @@
   "mini.base16": { "branch": "main", "commit": "44240f11871c15aba8fc49959ebd27c0b4768a40" },
   "mini.icons": { "branch": "main", "commit": "ec61af6e606fc89ee3b1d8f2f20166a3ca917a36" },
   "mini.pairs": { "branch": "main", "commit": "1a3e73649c0eaef2f6c48ce1e761c6f0a7c11918" },
+  "mini.statusline": { "branch": "main", "commit": "83209bfbca156f9e4a5ec47a2a8ce1e5ce26311d" },
   "molten-nvim": { "branch": "main", "commit": "a286aa914d9a154bc359131aab788b5a077a5a99" },
   "neo-tree.nvim": { "branch": "main", "commit": "8c6349bceb1d8a863964dd25dc7944d588a56aaa" },
   "neorg": { "branch": "main", "commit": "ed43ed58116caa0a17bbbc7aa663e32bf94bc531" },
